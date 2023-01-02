@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splashActivity"
+    android:background="@color/colorsplash">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_rawRes="@raw/notes_taking"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textbright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Brightminds"
+        android:textSize="@dimen/_25ssp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:textColor="@color/colorsplashtext"
+        android:fontFamily="cursive"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textnote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notetaking"
+        android:textSize="@dimen/_20ssp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorsplashtext"
+        android:fontFamily="@font/ubuntu_medium"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/colorsplashtext"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/_10sdp"
+        android:fontFamily="@font/ubuntu"/>
+
+</RelativeLayout>

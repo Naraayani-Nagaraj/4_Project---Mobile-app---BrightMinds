@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BrightMinds</string>
+    <string name="notes">Notes</string>
+    <string name="searchnotes">Search notes here</string>
+    <string name="title_of_the_note">Title of the note</string>
+    <string name="subtitle">subtitle</string>
+    <string name="type_here">Type here</string>
+    <string name="miscellaneous">Do on note -</string>
+    <string name="deletenote">Delete note</string>
+    <string name="Pickcolor">Pick a color :</string>
+    <string name="cancelDialog">CANCEL</string>
+    <string name="deleteDialog">Are you sure you want to delete the note?</string>
+    <string name="Brightminds">Bright Minds</string>
+    <string name="notetaking">A note taking application</string>
+    <string name="text">This application allows to create a new note and view, update, delete or search the notes which have been taken...</string>
+</resources>
